@@ -2,7 +2,7 @@
  Project Authors: Muhammad Maaz Ahmed
                   ,Joshua Rachpaul
                 
-Project Description
+# Project Description
 A  command-line utility program that merges the contents of multiple tar archive files into a single tar archive file .
 
 The inputs are merged to form the output according to the following definitions and rules:
