@@ -11,7 +11,7 @@
     This was done in an attempt to make the code more readable by breaking it
     up into digestable chunks.
 
-    Authour: Joshua Rachpaul
+    Authour: Joshua Rachpaul, Muhammad Maaz Ahmed
 -----------------------------------------------------------------------------*/
 
 #include "mergetars.h"
