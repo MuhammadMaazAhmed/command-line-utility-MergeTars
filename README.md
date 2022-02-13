@@ -17,6 +17,6 @@ The inputs are merged to form the output according to the following definitions 
 
 # Program invocation
 
-The purpose of your mergetars command-line utility is to merge the contents of multiple tar archive files into a single tar archive. The program receives the name of one or more input filenames, and a single output filename (if only a single input filename is provided, then mergetars will act like a simple file-copying program, although there is no requirement to check for this special case). A typical program invocation is:
+The purpose of mergetars command-line utility is to merge the contents of multiple tar archive files into a single tar archive. The program receives the name of one or more input filenames, and a single output filename (if only a single input filename is provided, then mergetars will act like a simple file-copying program, although there is no requirement to check for this special case). A typical program invocation is:
 
 prompt>  ./mergetars input_tarfile1 [input_tarfile2 ...] output_tarfile
