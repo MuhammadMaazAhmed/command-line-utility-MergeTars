@@ -6,6 +6,7 @@ Project Description
 A  command-line utility program that merges the contents of multiple tar archive files into a single tar archive file .
 
 The inputs are merged to form the output according to the following definitions and rules:
+
 --Two or more files from different archives are considered the same file if they have the same relative pathname (including the name of the directory holding the file and the      filename itself).
   If from different archives, the files "project2/src/mergetars.c" and "project2/src/mergetars.c" are considered the same file.
   In contrast, "monday/project2/src/mergetars.c" and "wednesday/project2/src/mergetars.c" are considered different files.
