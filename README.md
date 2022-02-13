@@ -4,6 +4,7 @@
                 
 Project Description
 A  command-line utility program that merges the contents of multiple tar archive files into a single tar archive file .
+
 The inputs are merged to form the output according to the following definitions and rules:
  --Two or more files from different archives are considered the same file if they have the same relative pathname (including the name of the directory holding the file and the        filename itself).
    If from different archives, the files "project2/src/mergetars.c" and "project2/src/mergetars.c" are considered the same file.
@@ -14,6 +15,7 @@ The inputs are merged to form the output according to the following definitions 
 --All other files with different relative pathnames are considered different files. The output archive should contain one copy of each different file.
 
 Program invocation
+
 The purpose of your mergetars command-line utility is to merge the contents of multiple tar archive files into a single tar archive. The program receives the name of one or more input filenames, and a single output filename (if only a single input filename is provided, then mergetars will act like a simple file-copying program, although there is no requirement to check for this special case). A typical program invocation is:
 
 prompt>  ./mergetars input_tarfile1 [input_tarfile2 ...] output_tarfile
